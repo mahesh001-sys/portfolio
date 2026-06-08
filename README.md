@@ -18,7 +18,7 @@ I wanted a single place where recruiters and engineers could see what I actually
 portfolio/
 ├── index.html          → Full single-page portfolio
 ├── style.css           → All styling — dark/light mode, animations, responsive
-├── profile.jpeg        → Profile photo
+├── profilepic.png       → Profile photo
 └── MahehsTestResume.pdf → Downloadable resume
 ```
 
