@@ -1,6 +1,6 @@
 # Banoth Mahesh Kumar — Portfolio Website
 
-Hey, I'm Mahesh — a B.Tech Information Technology graduate from Anurag University, Hyderabad (2026). This is my personal portfolio website where I've put together everything about me — my skills, projects, certifications, and how to reach me.
+Hey, I'm Mahesh — a B.Tech Information Technology graduate from Anurag University, Hyderabad (2026). This is my personal portfolio website where I've put together everything about me — my skills, projects, certifications, education, and how to reach me.
 
 I built this from scratch using plain HTML, CSS, and JavaScript. No frameworks, no templates — just clean code.
 
@@ -8,7 +8,7 @@ I built this from scratch using plain HTML, CSS, and JavaScript. No frameworks, 
 
 ## Why I Built This
 
-I wanted a single place where recruiters and engineers could see what I actually do, not just read a PDF resume. The portfolio shows my GitHub stats, LeetCode profile, project details with real bullet points, and a downloadable resume — all in one page.
+I wanted a single place where recruiters and engineers could see what I actually do, not just read a PDF resume. The portfolio walks through my background, technical skills, real project work with actual bullet points, QA knowledge, education timeline, certifications, and a downloadable resume — all in one page.
 
 ---
 
@@ -16,42 +16,57 @@ I wanted a single place where recruiters and engineers could see what I actually
 
 ```
 portfolio/
-├── index.html          → Full single-page portfolio
-├── style.css           → All styling — dark/light mode, animations, responsive
-├── profilepic.png       → Profile photo
-└── MahehsTestResume.pdf → Downloadable resume
+├── index.html                  → Full single-page portfolio
+├── style.css                   → All styling — dark/light mode, animations, responsive
+├── script.js                   → Typing effect, theme toggle, scroll-reveal animations
+├── photo.jpeg                  → Profile photo
+└── maheshTestingResume(1).pdf  → Downloadable resume
 ```
 
 ---
 
 ## Sections
 
-- **Hero** — Name, role, stats (CGPA, projects, automation coverage), resume download
-- **About** — Who I am, education background, what I'm looking for
-- **Skills** — Grouped by category: Test Automation, Programming, Frameworks & CI/CD, QA Methodologies, Tools
+- **Hero** — Name, role, stats (CGPA, projects, graduation year), resume download
+- **About** — Who I am, what I've worked with, what I'm looking for, quick education facts
+- **Skills** — Grouped by category: Programming Languages, Test Automation, Software Testing, Frameworks & Tools, Web Technologies, Methodologies
 - **Projects** — Two real projects with actual bullet points from my resume
-- **Certifications** — Cisco, Automation Anywhere, Microsoft & LinkedIn
-- **GitHub Stats** — Live stats cards pulled from my GitHub
-- **LeetCode** — Live problem-solving card
+- **QA Knowledge** — Core testing concepts I'm familiar with: test case design, regression testing, defect lifecycle, SDLC/STLC, Agile/Scrum, failure analysis
+- **Education** — Timeline from 10th grade through B.Tech
+- **Certifications** — Automation Anywhere, Cisco
 - **Contact** — Email, phone, LinkedIn, GitHub
 
 ---
 
 ## Projects Featured
 
-### Selenium Automation Framework — E-Commerce End-to-End Testing (2026)
-`Java` `Selenium WebDriver` `TestNG` `Maven` `Apache POI` `ExtentReports` `GitHub Actions`
+### Selenium Automation Framework — E-Commerce End-to-End Testing
+**Major Project · Team Project**
+`Java` `Selenium WebDriver` `TestNG` `Maven` `POM` `Page Factory` `Apache POI` `ExtentReports` `GitHub Actions`
 
-Built a full E2E automation framework for SauceDemo that covers login, product browsing, cart management, and checkout flows. The thing I'm most proud of here is the thread-safe parallel execution using `ThreadLocal<WebDriver>` — it runs across multiple browsers concurrently with zero race conditions. The GitHub Actions pipeline runs everything in headless Chrome on every push and auto-uploads the ExtentReports HTML with failure screenshots.
+Contributed to a team-based Selenium automation framework for SauceDemo covering e-commerce workflows including login, product browsing, cart management, and checkout. My work included:
+- Selenium WebDriver automation using Java and TestNG for assigned test scenarios
+- Test execution, debugging, and failure analysis
+- Page Object Model and Page Factory to organize page elements and actions
+- ThreadLocal WebDriver for parallel execution
+- TestNG DataProvider and Apache POI for data-driven testing
+- ExtentReports and GitHub Actions for test reporting and automated execution
 
 → [github.com/mahesh001-sys/TEST-AutoMATEs](https://github.com/mahesh001-sys/TEST-AutoMATEs)
 
 ---
 
-### TEST-AutoMATEs — Workflow Automation and Smart Task Execution (2025)
+### TEST-AutoMATEs — Workflow Automation and Smart Task Execution
+**Minor Project · Individual Project**
 `Java` `Maven` `TestNG` `Git` `GitHub` `Jira` `Agile/Scrum`
 
-Automated repetitive software workflows — login, form submission, data validation, task status updates. Structured the codebase into 3 clean layers (src/main, src/test, docs) so automation logic, test scripts, and documentation are completely independent. Ran this across Agile/Scrum sprints using GitHub Issues to simulate a real team QA environment.
+Independently developed a workflow automation project to automate repetitive activities including user login, form submission, data validation, and task status updates.
+- Structured the project into src/main, src/test, and docs
+- Developed TestNG test cases and assertions to validate actual results against expected outcomes
+- Used Maven for build and dependency management
+- Used Git and GitHub for source-code version control
+- Tracked development tasks using GitHub Issues
+- Followed an Agile/Scrum-style workflow
 
 → [github.com/mahesh001-sys/TEST-AutoMATEs](https://github.com/mahesh001-sys/TEST-AutoMATEs)
 
@@ -91,7 +106,9 @@ Then open `index.html` in your browser — or use the **Live Server** extension 
 
 ## About Me
 
-I'm a fresher looking for a QA Engineer or SDET role. I've built my automation framework without any internship support or a team behind me — just a problem to solve and time to figure it out. I know SDLC, STLC, manual testing, and defect lifecycle inside Agile/Scrum environments. I'm comfortable with Jira, GitHub, Maven, and writing TestNG assertions that actually tell you what broke and why.
+I'm a B.Tech Information Technology graduate with hands-on project experience in QA Automation, Java, and software testing. I've worked with Selenium WebDriver, TestNG, Maven, Page Object Model, Page Factory, Data-Driven Testing, and Git/GitHub. I'm also familiar with manual testing concepts — functional, smoke, sanity, and regression testing, test case design, test execution, bug lifecycle, SDLC, and STLC.
+
+I'm currently seeking an entry-level QA Automation, Software Testing, or Test Engineer opportunity where I can learn, contribute, and grow as a test engineer.
 
 If you're a recruiter or engineer reading this — feel free to reach out.
 
