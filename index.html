@@ -1,53 +1,127 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
 
-    <title>Banoth Mahesh Kumar — QA Automation & Software Testing</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
 
-    <meta
-      name="description"
-      content="Banoth Mahesh Kumar — B.Tech Information Technology graduate specializing in Java, Selenium WebDriver, TestNG, QA Automation, Software Testing, Maven and CI/CD."
-    />
+  <meta
+    name="description"
+    content="Banoth Mahesh Kumar — B.Tech Information Technology graduate specializing in Java, Selenium WebDriver, TestNG, QA Automation, Software Testing, Maven and CI/CD."
+  />
 
-    <link rel="stylesheet" href="style.css" />
+  <meta
+    name="keywords"
+    content="Banoth Mahesh Kumar, QA Automation, Software Testing, Selenium, Java, TestNG, Automation Tester, Hyderabad"
+  />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:opsz,wght@9..40,300;400;500;600;700&family=Syne:wght@700;800&display=swap"
-      rel="stylesheet"
-    />
+  <meta name="author" content="Banoth Mahesh Kumar" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-  </head>
+  <meta name="theme-color" content="#060b14" />
 
-  <body>
+  <title>Banoth Mahesh Kumar — QA Automation & Software Testing</title>
 
-    <!-- NAVBAR -->
-    <header>
-      <nav>
-        <p class="logo"><span>~/</span>mahesh-kumar</p>
+  <link rel="stylesheet" href="style.css" />
 
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#certifications">Certifications</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-        <button id="theme-toggle" title="Toggle theme">☀️</button>
-      </nav>
-    </header>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:opsz,wght@9..40,300;400;500;600;700&family=Syne:wght@700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- =========================
+       NAVBAR
+  ========================== -->
+
+  <header class="site-header">
+
+    <nav aria-label="Main navigation">
+
+      <a href="#home" class="logo">
+        <span>~/</span>mahesh-kumar
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul id="nav-menu">
+
+        <li>
+          <a href="#home" class="nav-link active">Home</a>
+        </li>
+
+        <li>
+          <a href="#about" class="nav-link">About</a>
+        </li>
+
+        <li>
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+
+        <li>
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#qa-knowledge" class="nav-link">QA Knowledge</a>
+        </li>
+
+        <li>
+          <a href="#education" class="nav-link">Education</a>
+        </li>
+
+        <li>
+          <a href="#certifications" class="nav-link">Certifications</a>
+        </li>
+
+        <li>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+
+      </ul>
+
+      <button
+        id="theme-toggle"
+        class="theme-toggle"
+        type="button"
+        title="Toggle theme"
+        aria-label="Toggle light and dark theme"
+      >
+        ☀️
+      </button>
+
+    </nav>
+
+  </header>
 
 
-    <!-- HERO -->
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
     <section class="hero" id="home">
 
       <div class="hero-text">
@@ -66,11 +140,11 @@
           <span class="name-accent">Mahesh Kumar</span>
         </h1>
 
-        <h3>
+        <h2 class="hero-role">
           I build <span class="typing"></span>
-        </h3>
+        </h2>
 
-        <p>
+        <p class="hero-description">
           B.Tech Information Technology graduate with hands-on project
           experience in QA Automation, Java, Selenium WebDriver, TestNG,
           Maven, SQL and Git/GitHub.
@@ -108,7 +182,7 @@
             class="btn2"
           >
             <i class="fas fa-download"></i>
-            Resume
+            Download Resume
           </a>
 
         </div>
@@ -121,17 +195,17 @@
         <img
           src="photo.jpeg"
           alt="Banoth Mahesh Kumar"
+          loading="eager"
         />
 
         <div class="hero-card-badge">
-          <i
-            class="fas fa-map-marker-alt"
-            style="color: #38bdf8"
-          ></i>
+
+          <i class="fas fa-map-marker-alt"></i>
 
           <span>
             Hyderabad, India — <strong>Available</strong>
           </span>
+
         </div>
 
       </div>
@@ -142,7 +216,10 @@
     <div class="section-divider"></div>
 
 
-    <!-- ABOUT -->
+    <!-- =========================
+         ABOUT
+    ========================== -->
+
     <section class="about" id="about">
 
       <span class="section-label">01</span>
@@ -234,7 +311,10 @@
     <div class="section-divider"></div>
 
 
-    <!-- SKILLS -->
+    <!-- =========================
+         SKILLS
+    ========================== -->
+
     <section class="skills" id="skills">
 
       <span class="section-label">02</span>
@@ -243,18 +323,18 @@
         Technical <span>Skills</span>
       </h2>
 
-
       <div class="skills-grid">
 
-        <!-- Programming -->
         <div class="skill-group">
 
           <div class="skill-group-head">
+
             <div class="skill-group-icon">
               <i class="fas fa-code"></i>
             </div>
 
             <h3>Programming Languages</h3>
+
           </div>
 
           <div class="tag-cloud">
@@ -268,7 +348,6 @@
         </div>
 
 
-        <!-- Automation -->
         <div class="skill-group">
 
           <div class="skill-group-head">
@@ -298,7 +377,6 @@
         </div>
 
 
-        <!-- Testing -->
         <div class="skill-group">
 
           <div class="skill-group-head">
@@ -327,7 +405,6 @@
         </div>
 
 
-        <!-- Frameworks -->
         <div class="skill-group">
 
           <div class="skill-group-head">
@@ -357,7 +434,6 @@
         </div>
 
 
-        <!-- Web -->
         <div class="skill-group">
 
           <div class="skill-group-head">
@@ -382,7 +458,6 @@
         </div>
 
 
-        <!-- Methodologies -->
         <div class="skill-group">
 
           <div class="skill-group-head">
@@ -415,7 +490,10 @@
     <div class="section-divider"></div>
 
 
-    <!-- PROJECTS -->
+    <!-- =========================
+         PROJECTS
+    ========================== -->
+
     <section class="projects" id="projects">
 
       <span class="section-label">03</span>
@@ -434,13 +512,15 @@
 
 
         <!-- PROJECT 1 -->
-        <div class="project-card">
+
+        <article class="project-card">
 
           <div class="project-img">
 
             <img
               src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1170&auto=format&fit=crop"
-              alt="Selenium Automation Framework"
+              alt="Java and Selenium automation framework"
+              loading="lazy"
             />
 
             <div class="project-img-overlay"></div>
@@ -479,10 +559,7 @@
             </p>
 
 
-            <h4>
-              Key Features
-            </h4>
-
+            <h4>Key Features</h4>
 
             <ul class="project-highlights">
 
@@ -544,9 +621,7 @@
 
             <div class="project-result">
 
-              <strong>
-                17 Tests Passed
-              </strong>
+              <strong>17 Tests Passed</strong>
 
               <span>
                 · 0 Failed · 0 Skipped
@@ -567,18 +642,19 @@
 
           </div>
 
-        </div>
-
+        </article>
 
 
         <!-- PROJECT 2 -->
-        <div class="project-card">
+
+        <article class="project-card">
 
           <div class="project-img">
 
             <img
               src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=1170&auto=format&fit=crop"
-              alt="TEST-AutoMATEs Java Workflow Automation Framework"
+              alt="Java workflow automation framework"
+              loading="lazy"
             />
 
             <div class="project-img-overlay"></div>
@@ -617,10 +693,7 @@
             </p>
 
 
-            <h4>
-              Key Features
-            </h4>
-
+            <h4>Key Features</h4>
 
             <ul class="project-highlights">
 
@@ -687,9 +760,7 @@
 
             <div class="project-result">
 
-              <strong>
-                18 Tests Passed
-              </strong>
+              <strong>18 Tests Passed</strong>
 
               <span>
                 · 0 Failures · 0 Errors · 0 Skipped
@@ -710,7 +781,7 @@
 
           </div>
 
-        </div>
+        </article>
 
       </div>
 
@@ -720,7 +791,10 @@
     <div class="section-divider"></div>
 
 
-    <!-- QA KNOWLEDGE -->
+    <!-- =========================
+         QA KNOWLEDGE
+    ========================== -->
+
     <section class="qa-knowledge" id="qa-knowledge">
 
       <span class="section-label">04</span>
@@ -832,7 +906,10 @@
     <div class="section-divider"></div>
 
 
-    <!-- EDUCATION -->
+    <!-- =========================
+         EDUCATION
+    ========================== -->
+
     <section class="education" id="education">
 
       <span class="section-label">05</span>
@@ -914,7 +991,10 @@
     <div class="section-divider"></div>
 
 
-    <!-- CERTIFICATIONS -->
+    <!-- =========================
+         CERTIFICATIONS
+    ========================== -->
+
     <section class="certifications" id="certifications">
 
       <span class="section-label">06</span>
@@ -991,7 +1071,10 @@
     <div class="section-divider"></div>
 
 
-    <!-- CONTACT -->
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
     <section class="contact" id="contact">
 
       <span class="section-label">07</span>
@@ -1015,9 +1098,7 @@
             <i class="fas fa-envelope"></i>
           </div>
 
-          <h3>
-            Email
-          </h3>
+          <h3>Email</h3>
 
           <a
             href="mailto:maheshbanoth057@gmail.com"
@@ -1035,9 +1116,7 @@
             <i class="fas fa-phone-alt"></i>
           </div>
 
-          <h3>
-            Phone
-          </h3>
+          <h3>Phone</h3>
 
           <a
             href="tel:+916305296075"
@@ -1055,9 +1134,7 @@
             <i class="fab fa-linkedin-in"></i>
           </div>
 
-          <h3>
-            LinkedIn
-          </h3>
+          <h3>LinkedIn</h3>
 
           <a
             href="https://www.linkedin.com/in/banoth-mahesh-kumar"
@@ -1077,9 +1154,7 @@
             <i class="fab fa-github"></i>
           </div>
 
-          <h3>
-            GitHub
-          </h3>
+          <h3>GitHub</h3>
 
           <a
             href="https://github.com/mahesh001-sys"
@@ -1096,61 +1171,67 @@
 
     </section>
 
-
-    <!-- FOOTER -->
-    <footer>
-
-      <div class="footer-top">
-
-        <div>
-
-          <p class="footer-logo">
-            &lt; Mahesh /&gt;
-          </p>
-
-          <p class="footer-tag">
-            QA Automation · Software Testing · Java
-          </p>
-
-        </div>
+  </main>
 
 
-        <ul class="footer-nav">
+  <!-- =========================
+       FOOTER
+  ========================== -->
 
-          <li>
-            <a href="#about">About</a>
-          </li>
+  <footer>
 
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
+    <div class="footer-top">
 
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
+      <div>
 
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+        <p class="footer-logo">
+          &lt; Mahesh /&gt;
+        </p>
 
-        </ul>
+        <p class="footer-tag">
+          QA Automation · Software Testing · Java
+        </p>
 
       </div>
 
 
-      <div class="footer-bottom">
-        © 2026 Banoth Mahesh Kumar
-      </div>
+      <ul class="footer-nav">
 
-    </footer>
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+
+      </ul>
+
+    </div>
 
 
-    <!-- Scripts -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"
-    ></script>
+    <div class="footer-bottom">
+      © 2026 Banoth Mahesh Kumar
+    </div>
 
-    <script src="script.js"></script>
+  </footer>
 
-  </body>
+
+  <!-- =========================
+       SCRIPTS
+  ========================== -->
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script src="script.js"></script>
+
+</body>
 </html>
