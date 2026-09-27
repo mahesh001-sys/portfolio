@@ -42,7 +42,7 @@ This portfolio showcases my technical skills, QA projects, testing knowledge, ed
 
 ### 🧪 Selenium Automation Framework
 
-E-commerce end-to-end automation for SauceDemo using Java and Selenium.
+E-commerce end-to-end automation framework for SauceDemo using Java and Selenium.
 
 * Page Object Model & Page Factory
 * TestNG & DataProvider
@@ -51,11 +51,11 @@ E-commerce end-to-end automation for SauceDemo using Java and Selenium.
 * ExtentReports
 * GitHub Actions
 
-🔗 [View Project](https://github.com/mahesh001-sys/TEST-AutoMATEs)
+🔗 [View Project](https://github.com/mahesh001-sys/selenium-automation-framework)
 
 ### ⚙️ TEST-AutoMATEs
 
-Java-based workflow automation for login, form submission, data validation and task status updates.
+Java-based automation project focused on workflow automation, form submission, data validation and task status updates.
 
 * Java & TestNG
 * Maven
