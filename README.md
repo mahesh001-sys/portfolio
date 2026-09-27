@@ -42,8 +42,6 @@ This portfolio showcases my technical skills, QA projects, testing knowledge, ed
 
 ### 🧪 Selenium Automation Framework
 
-**Major Project · Team Project**
-
 E-commerce end-to-end automation for SauceDemo using Java and Selenium.
 
 * Page Object Model & Page Factory
@@ -56,8 +54,6 @@ E-commerce end-to-end automation for SauceDemo using Java and Selenium.
 🔗 [View Project](https://github.com/mahesh001-sys/TEST-AutoMATEs)
 
 ### ⚙️ TEST-AutoMATEs
-
-**Minor Project · Individual Project**
 
 Java-based workflow automation for login, form submission, data validation and task status updates.
 
