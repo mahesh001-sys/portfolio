@@ -365,8 +365,8 @@ document.addEventListener("DOMContentLoaded", () => {
   ======================================================= */
 
   const resumeLink =
-    document.querySelector(
-      'a[href*="maheshTestingResume"]'
+    document.getElementById(
+      "resume-download"
     );
 
 
